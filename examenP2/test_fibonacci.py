@@ -5,7 +5,7 @@ def test_fib onacci () :
 	assert fibonacci (0) == 0
 	assert fibonacci (1) == 1
 	assert fibonacci (5) == 5
-	print ( " Pruebas pasadas ! " )
+	print ( " Pruebas pasadas ! Elio 806 " )
 
 if __name__ == " __main__ " :
 	test _fibonac ci ()
