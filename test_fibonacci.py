@@ -8,7 +8,7 @@ def test_fibonacci () :
 	print ( " Pruebas pasadas ! Codigo de Elio 806" )
 
 if __name__ == " __main__ " :
-	test _fibonac ci ()
+	test_fibonac ci ()
 	time = timeit.timeit ( " fibonacci (20) " ,
 		setup = " from fibonacci import fibonacci " ,
 		number =100)
