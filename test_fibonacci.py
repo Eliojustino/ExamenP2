@@ -9,7 +9,7 @@ def test_fibonacci () :
 
 if __name__ == " __main__ " :
 	test _fibonac ci ()
-	time = timeit . timeit ( " fibonacci (20) " ,
+	time = timeit.timeit ( " fibonacci (20) " ,
 		setup = " from fibonacci import fibonacci " ,
 		number =100)
-	print ( f " Tiempo : { time :.4 f } segundos " )
+	print ( f" Tiempo : { time :.4 f } segundos " )
